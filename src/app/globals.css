@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --yellow-color: #f3dccb;
+  --yellow-color-dark: #f3b88b;
+}
+
+.stroke-text {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo-text {
+  position: relative;
+  z-index: 1;
+}
+
+.logo-text::after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: red;
+  color: red;
+}
+
+.animated-btn:hover {
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+.animated-btn:active {
+  box-shadow: none;
+}
+
+::selection {
+  background-color: var(--yellow-color);
+}
+
+.card ::selection {
+  background-color: var(--yellow-color-dark);
+}
+
+.bottom-line {
+  border-bottom: 10px solid var(--yellow-color);
+  width: max-content;
+  margin-inline: auto;
+  line-height: 1px;
+  margin-block: 10px;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card * {
+  position: relative;
+  z-index: 2;
+}
+
+.card .bg-overlay {
+  position: absolute;
+  z-index: 1;
+}
+
+.bg-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: var(--yellow-color);
+  transition: all;
+  left: 0;
+  bottom: 0;
+  transform: translate(-45%, 100%);
+  transition: all 1s ease;
+}
+
+.card:hover .bg-overlay {
+  transform: translate(0, 0);
+  scale: 2;
+}
