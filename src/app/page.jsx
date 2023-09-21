@@ -11,7 +11,7 @@ export default function Home() {
 
       <Header />
       <MyServices />
-      <Quote />
+      <Quote quote={"Success in technology is not just about finding solutions; it's about partnering with the right experts."} author={"John Smith"}/>
       <AboutUs />
       <BlogPostsSection />
       <ContactUsSection />

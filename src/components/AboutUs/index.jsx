@@ -43,11 +43,11 @@ const AboutUs = () => {
                     </div>
                     <div className=' flex flex-col mt-5 gap-5 w-full md:max-w-sm lg:max-w-none mx-auto'>
                         <div className='hidden lg:flex'>
-                            <Quote sm={true} />
+                            <Quote sm={true} quote={"What do we live for if not to make life less difficult for each other?"} author={"George Eliot, Novelist"} />
                         </div>
                         <div className='lg:mx-10 flex flex-col gap-3 w-full'>
                             <Skill title="Swift" percent={95} />
-                            <Skill title="Cloud Computing" percent={85} />
+                            <Skill title="Azure Cloud" percent={85} />
                             <Skill title="DevOps" percent={90} />
 
                         </div>
