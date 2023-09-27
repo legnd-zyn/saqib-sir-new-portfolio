@@ -9,10 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-email/body": "0.0.3",
+    "@react-email/container": "0.0.8",
+    "@react-email/head": "0.0.5",
+    "@react-email/heading": "0.0.8",
+    "@react-email/hr": "0.0.5",
+    "@react-email/html": "0.0.4",
+    "@react-email/preview": "0.0.6",
+    "@react-email/render": "0.0.7",
+    "@react-email/tailwind": "0.0.8",
+    "@react-email/text": "0.0.5",
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "10.4.15",
     "axios": "^1.5.0",
     "bcrypt": "^5.1.1",
+    "formik": "^2.4.5",
     "html-react-parser": "^4.2.2",
     "jose": "^4.14.6",
     "jsonwebtoken": "^9.0.2",
@@ -23,7 +34,9 @@
     "postcss": "8.4.29",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-email": "1.9.4",
     "react-parallax-tilt": "^1.7.166",
-    "tailwindcss": "3.3.3"
+    "tailwindcss": "3.3.3",
+    "yup": "^1.2.0"
   }
 }
