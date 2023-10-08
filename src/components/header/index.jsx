@@ -13,7 +13,7 @@ const Header = () => {
                 <p className='text-6xl lg:text-6xl xl:text-7xl font-bold text-gray-800'>I AM SAQIB</p>
                 <p className='text-2xl lg:text-3xl font-bold text-gray-600'>Cloud Architect</p>
                 <p className='text-base lg:text-lg text-gray-600'>From Swift to Azure Skies, a Journey Through a Decade of Software Engineering Mastery.</p>
-                <div className='flex flex-wrap gap-5 w-full lg:max-w-[600px]'>
+                <div className='justify-center lg:justify-start flex flex-wrap gap-5 w-full lg:max-w-[600px]'>
                     <Link href={"#contact-us"}>
                         <button className='flex-1 w-max px-6 lg:px-7 text-lg font-bold text-gray-700 py-1 pt-2 border-2 border-gray-400 rounded-md active:scale-95 transition-all animated-btn hover:-translate-x-1 hover:-translate-y-1 active:translate-x-0 active:translate-y-0'>Hire Me</button>
                     </Link>
