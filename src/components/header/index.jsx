@@ -25,11 +25,11 @@ const Header = () => {
             <div className='relative mt-10 lg:mt-0'>
                 <div className='z-10 flex-1 max-w-md rounded-full overflow-hidden p-8 bg-slate-100 shadow-2xl mx-auto relative'>
                     <div className='max-w-2xl rounded-full overflow-hidden shadow-xl border-2 bg-gray-200/50' >
-                        <Image src={SaqibPic} alt='profile pic' />
+                        <Image priority src={SaqibPic} alt='profile pic' />
                     </div>
                 </div>
-                <Image src={dotElement} className='absolute left-1/3 opacity-50 -top-10 lg:-top-28 scale-[0.5]' />
-                <Image src={dotElement} className='absolute -left-1/2 lg:-left-[40%] opacity-50 bottom-0 scale-[0.5] rotate-90' />
+                <Image priority src={dotElement} className='absolute left-1/3 opacity-50 -top-10 lg:-top-28 scale-[0.5]' />
+                <Image priority src={dotElement} className='absolute -left-1/2 lg:-left-[40%] opacity-50 bottom-0 scale-[0.5] rotate-90' />
             </div>
         </header>
     )
